@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --base_color: #b1ada9;
+  --spacing: 10px;
+  --blur: 5px;
+  --border_radius: 10px;
+  --bg_color: crimson;
+}
+.container {
+  min-height: 100vh;
+  /* min-width: 100vw; */
+
+  text-align: center;
+  background-color: var(--bg_color);
+}
+img {
+  padding: var(--spacing);
+  background: var(--base_color);
+  filter: blur(var(--blur));
+  border-radius: var(--border_radius);
+  width: 50%;
+}
+
+.controls {
+  padding-top: 3rem;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}

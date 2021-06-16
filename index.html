@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing CSS variables with JS</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="controls">
+
+            <label for="spacing">Spacing</label>
+            <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+            <label for="blur">Blur</label>
+            <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+            <label for="base_color">Base Color</label>
+            <input type="color" name="base_color" value="#b1ada9">
+            <label for="border-radius">Border Radius</label>
+            <input type="range" name="border_radius" min="0" max="200" value="10" data-sizing="px">
+        </div>
+        <img src="https://source.unsplash.com/700x500/?dessert">
+
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
